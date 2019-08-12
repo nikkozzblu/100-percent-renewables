@@ -12,13 +12,12 @@ At this stage the project consist of a jupyter notebook exploring the particular
 ### Install anaconda & dependencies
 See https://docs.anaconda.com/anaconda/install/)
 
-Activate conda virtual default environement (or create a specific one)
+Activate conda virtual default environement (or create a specific one) and install Pulp linear optimizer 
 
+```
 > conda activate
-
-Install Pulp linear optimizer 
-
 > pip install pulp
+```
 
 ### Prepare datasets
 Clone this repository and download the following dataset in the data directory:
@@ -31,7 +30,9 @@ Unzip them in the data directory
 
 Start the jupyter notebook engine
 
+```
 > jupyter notebook
+```
 
 Open the "Load data" notebook and run all the cells.
 If everything goes smoothly you should now have 275 CSV files in your "data" directory combining the 3 dataset by country and by year
