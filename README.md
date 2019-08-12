@@ -56,4 +56,4 @@ Contributions are really welcomed in the form of Notebooks at this stage to:
   - Electric cars fleets
 - Add more datasets...
 
-The next step for me is to interface this in the form of a minimalist web app user interface to allow public to try various scenarii based on different country/year/cost assumptions
+The next step for me would be to package those functions and interface it in the form of a minimalist web app to allow public to try various scenarii based on different country/year/cost assumptions
