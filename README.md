@@ -46,12 +46,12 @@ Contributions are really welcomed in the form of Notebooks at this stage to:
   - Hydro
   - Biomass
   - Offshore wind
-  - Solar concentration
-  - Geothermy
+  - Solar thermal
+  - Geothermal
   - Tidal
   - Waves
 - Refine the grid cost estimate
-- Introduce new possibilities of assumptions on conumption:
+- Introduce new possibilities of assumptions on consumption:
   - Flexible loads
   - Electric cars fleets
 - Add more datasets...
