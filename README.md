@@ -1,4 +1,4 @@
-# 100-percent-renewables
+# 100% Renewables electricity for Europe
 
 This repository aims to be a collaborative project to study scenarii around the possibility of running Europeans country electricity supply only on renewables
 
