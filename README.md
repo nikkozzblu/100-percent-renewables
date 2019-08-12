@@ -10,7 +10,7 @@ At this stage the project consist of a jupyter notebook exploring the particular
 
 ## How to install
 ### Install anaconda & dependencies
-See https://docs.anaconda.com/anaconda/install/)
+See https://docs.anaconda.com/anaconda/install/
 
 Activate conda virtual default environement (or create a specific one) and install Pulp linear optimizer 
 
@@ -43,17 +43,17 @@ You can now play with the "Impacts of 100% renewables" notebook and try it for d
 This is just an initial step for this project that I run on my free time.
 Contributions are really welcomed in the form of Notebooks at this stage to:
 - Simulate other sources of renewables production units:
--- Hydro
--- Biomass
--- Offshore wind
--- Solar concentration
--- Geothermy
--- Tidal
--- Waves
+  - Hydro
+  - Biomass
+  - Offshore wind
+  - Solar concentration
+  - Geothermy
+  - Tidal
+  - Waves
 - Refine the grid cost estimate
 - Introduce new possibilities of assumptions on conumption:
--- Flexible loads
--- Electric cars fleets
+  - Flexible loads
+  - Electric cars fleets
 - Add more datasets...
 
 The next step for me is to interface this in the form of a minimalist web app user interface to allow public to try various scenarii based on different country/year/cost assumptions
