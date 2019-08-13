@@ -51,6 +51,8 @@ Contributions are really welcomed in the form of Notebooks at this stage to:
   - Tidal
   - Waves
 - Refine the grid cost estimate
+- Cross borders exchanges
+- EROI costs in terms of energy investment 
 - Introduce new possibilities of assumptions on consumption:
   - Flexible loads
   - Electric cars fleets
