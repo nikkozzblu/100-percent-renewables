@@ -1,0 +1,41 @@
+.Settings {
+    display: block;
+    /* background: white; */
+    padding-bottom: 26px;
+}
+
+.Settings .narrow-width{
+    max-width: 500px;
+    margin: auto;
+}
+
+.Settings h2 {
+    margin-top: 0;
+
+}
+
+.Settings .tab-contents {
+    position: relative;
+}
+
+.Settings .tab-content:not(.show) {
+    transition: none !important;
+    pointer-events: none;
+
+}
+
+.Settings .tab-content.show {
+    position: relative;
+
+}
+
+.Settings .tab-content {
+    position: absolute;
+    /* float:left; */
+    /* transform:translateY(-100%) */
+}
+
+.Settings .label-multiline{
+    /* line-height: 15px;
+    margin-bottom: 0px; */
+}

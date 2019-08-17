@@ -1,0 +1,36 @@
+
+
+.Countries ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.Countries ul li {
+    display: inline-flex;
+    /* flex-grow: 100; */
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: large;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    vertical-align: top;
+
+}
+
+.Countries ul li:hover {
+    background: rgba(0, 0, 255, 0.2);
+    border-color: blue;
+}
+
+
+
+.SelectedCountry img,
+.Countries ul li img {
+    height: 24px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+}

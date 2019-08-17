@@ -1,0 +1,321 @@
+body {
+  background: black;
+}
+
+.App {
+  /* text-align: center; */
+  font-size: large;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  background: linear-gradient(#220044, black);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+@media(max-width: 350px) {
+  .App {
+    font-size: medium;
+  }
+}
+
+.App-background {
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  opacity: 0.5;
+  object-fit: contain;
+}
+
+.App hr {
+  color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
+  height: 2px;
+}
+
+.App a:not(.btn) {
+  color: deepskyblue;
+
+}
+
+
+.App-logo-holder {
+  height: 100%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+
+.App-logo {
+  height: 60px;
+
+}
+
+.App-logo.circle {
+  height: 60px;
+  display: inline-block;
+  animation-duration: 20s;
+  position: absolute;
+  left: 10px;
+}
+
+.circle {
+  height: 30px;
+  animation: App-logo-spin infinite 3s linear;
+
+}
+
+.App-header {
+  background-color: #110022;
+  height: 80px;
+  /* padding: 20px; */
+  position: relative;
+  color: white;
+  border-bottom: 1px solid yellow;
+  z-index: 2;
+}
+
+.App-header h2 {
+  margin-bottom: 0em;
+  /* margin-top: -10px; */
+  font-size: 28px;
+}
+
+.App-name {
+  display: inline-block;
+  padding: 10px;
+  height: 100%;
+
+}
+
+@media(max-width:576px) {
+  .App-logo {
+    height: 40px;
+  }
+
+  .App-logo.circle {
+    height: 40px;
+    /* margin-left: -40px; */
+  }
+
+  .App-header {
+    font-size: 12px;
+    height: 60px;
+  }
+
+  .App h1 {
+    font-size: 32px;
+
+  }
+
+  .App-header h2 {
+    font-size: 18px;
+
+  }
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App .tip {
+  padding: 2px 6px;
+  position: absolute;
+  font-weight: bold;
+  top: 12px;
+  left: 12px;
+  background: #1b0069;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.App .tip:hover {
+  background: #4e3369;
+  border-color: blue;
+}
+
+.App .closer {
+  font-weight: bold;
+  font-size: medium;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 6px;
+  left: unset;
+  cursor: pointer;
+  z-index: 99;
+  opacity: 1 !important;
+}
+
+
+.AppContainer {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  background: #220044;
+  color: yellow;
+  padding: 26px;
+  border-radius: 0 0 16px 16px;
+  margin-bottom: 150px;
+  box-shadow: 0 10px 100px rgba(255, 255, 0, 0.3);
+}
+
+.AppContainer .holder {
+  padding-top: 20px;
+  /* padding-bottom: 26px; */
+  display: block;
+
+  border-bottom: 2px groove rgba(255, 255, 255, 0.3);
+}
+
+
+.AppContainer .holder h2 {
+  margin-top: 0px;
+}
+
+@media(max-width:576px) {
+  .AppContainer {
+    padding: 18px 12px;
+    margin-bottom: 0;
+  }
+
+  .AppContainer .holder {
+    padding-top: 0;
+    /* padding-bottom: 26px; */
+  }
+
+  .AppContainer .holder h2 {
+    margin-top: -10px;
+
+  }
+
+  .AppContainer .spacer {
+    height: 30px;
+    width: 100%;
+
+  }
+
+}
+
+.App .centerer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.App .righter {
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+}
+
+.App .pad {
+  padding: 12px;
+}
+
+.App .pad-bottom {
+  padding-bottom: 26px;
+
+}
+
+.App .pad-top {
+  padding-top: 26px;
+
+}
+
+
+.App .small-text {
+  font-size: small;
+}
+
+.App-footer {
+  color: white;
+  font-size: small;
+  /* max-width: calc(100% - 30px); */
+  padding: 16px;
+  width: 100%;
+  /* padding-top: 16px; */
+  text-align: center;
+  z-index: 3;
+}
+
+@media(min-width:576px) {
+  .App-footer {
+    position: absolute;
+
+    max-width: calc(100% - 360px);
+    top: 0px;
+    height: 80px;
+    right: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    text-align: right;
+    /* align-content: bottom; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .App-footer p {
+    margin: 0;
+  }
+
+}
+
+
+@media(max-width:576px) {
+  h2 {
+    font-size: 1.4em;
+  }
+}
+
+@media(max-width:350px) {
+
+  .App-logo {
+    height: 30px;
+  }
+
+  .App-logo.circle {
+    height: 30px;
+    /* margin-left: -40px; */
+  }
+
+  .App-header {
+    font-size: 10px;
+    height: 50px;
+  }
+
+  .App .small-text {
+    font-size: x-small;
+  }
+
+  .App-header h2 {
+    font-size: 16px;
+
+  }
+
+  /* .App-header .small-text {
+    font-size: 9px
+  } */
+
+  .App-name {
+
+    max-width: calc(100% - 70px);
+  }
+}

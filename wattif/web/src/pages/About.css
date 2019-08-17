@@ -1,0 +1,10 @@
+.About h2 {
+    margin-top: 26px;
+
+}
+
+.About p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}

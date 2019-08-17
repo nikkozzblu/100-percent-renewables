@@ -128,3 +128,6 @@ dmypy.json
 *.xlsm
 *.db
 *.csv
+
+*.zip
+.vscode/

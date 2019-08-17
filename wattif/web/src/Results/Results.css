@@ -1,0 +1,22 @@
+.Results {
+    margin: 0 26px;
+    background: #4e3369;
+    padding: 16px;
+    color:rgba(255, 255, 0, 0.6);
+}
+@media(max-width:576px){
+    .Results{
+        margin:0;
+    }
+}
+
+.Results b{
+    color:yellow;
+    word-spacing: -4px;
+}
+.Results h4{
+    font-size:20px;
+}
+.Results h5{
+    font-size:16px;
+}
